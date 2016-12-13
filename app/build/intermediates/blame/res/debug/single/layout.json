@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/username_settinglayout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/username_settinglayout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/signalmember.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/signalmember.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/receiverfile_fragment_layout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/receiverfile_fragment_layout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/settings_layout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/settings_layout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/voice_layout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/voice_layout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/receiverfile_actionbarlayout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/receiverfile_actionbarlayout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/group_list_layout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/group_list_layout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/allmemberlist.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/allmemberlist.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/fileoption_layout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/fileoption_layout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/sessionlayout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/sessionlayout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/settings_actionbarlayout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/settings_actionbarlayout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/base_settings_actionbarlayout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/base_settings_actionbarlayout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/receiverfile_item.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/receiverfile_item.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/receiverfile_layout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/receiverfile_layout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/mainentrylayout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/mainentrylayout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/popupwindow_layout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/popupwindow_layout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/chat_come_item.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/chat_come_item.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/memberlistheader.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/memberlistheader.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/file_list_layout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/file_list_layout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/drageimage_view.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/drageimage_view.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/fileoption_actionbarlayout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/fileoption_actionbarlayout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/buildgroup_dialog.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/buildgroup_dialog.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/usericon_settinglayout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/usericon_settinglayout.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/chat_to_item.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/chat_to_item.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/layout/session_actionbarlayout.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/layout/session_actionbarlayout.xml"
+    }
+]

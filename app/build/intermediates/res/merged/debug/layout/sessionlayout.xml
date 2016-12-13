@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/optPart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/darker_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/fileSend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sendfile"
+            android:background="@android:color/transparent"/>
+
+        <EditText
+            android:id="@+id/chatContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/session_edittext_magginleft"
+            android:layout_weight="3"
+            android:background="@android:color/white"
+            android:textSize="@dimen/chat_content" 
+            android:scrollbars="none"
+            android:singleLine="true">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/chatSend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sendmessage"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/optPart"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@id/optPart"
+        android:divider="#00000000"
+        android:dividerHeight="@dimen/session_listview_driverHeight"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+</RelativeLayout>

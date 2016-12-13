@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/localusername_setting_parent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height"
+            android:background="@android:color/white"
+            android:layout_marginTop="@dimen/settings_item_divier"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_item_marginleft"
+                android:text="@string/localusername_title"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/settings_item_title" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/setting_enter_tip" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/localusericon_setting_parent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height"
+            android:layout_below="@id/localusername_setting_parent"
+            android:layout_marginTop="@dimen/settings_item_divier"
+            android:background="@android:color/white"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_item_marginleft"
+                android:text="@string/localusericon_title"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/settings_item_title" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/setting_enter_tip" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/exit_setting_parent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/settings_item_divier"
+            android:background="@android:color/white"
+            android:layout_marginBottom="@dimen/settings_item_divier"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/settings_exit_textview"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/setting_textview_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/session_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/session_back"                                                                    
+        android:layout_centerVertical="true" 
+        android:layout_marginLeft="@dimen/chat_actionbar_marginleft"/>
+
+    <TextView
+        android:id="@+id/caht_obj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/chat_actionbar_objname"
+        android:textColor="@android:color/black"
+        android:text="TextView" />
+    
+    <ImageView
+        android:id="@+id/session_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_menu_add_field_holo_light"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/chat_actionbar_marginleft"/>
+
+</RelativeLayout>

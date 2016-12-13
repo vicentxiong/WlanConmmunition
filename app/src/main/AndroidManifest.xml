@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xiong.wlanconmmunition"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+    <application
+        android:name="com.xiong.wlanconmmunition.ConmmunicationApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.xiong.wlanconmmunition.activity.MainEntryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SessionActivity"
+            android:screenOrientation="nosensor" >
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:screenOrientation="nosensor" >
+        </activity>
+        <activity
+            android:name=".activity.UserIconSettingsActivity"
+            android:screenOrientation="nosensor" >
+        </activity>
+        <activity
+            android:name=".activity.UserNameSettingsActivity"
+            android:screenOrientation="nosensor" >
+        </activity>
+        <activity
+            android:name=".activity.FileOptionActivity"
+            android:screenOrientation="nosensor" >
+        </activity>
+        <activity
+            android:name=".activity.ReceiverFileActivity"
+            android:label="@string/file_list"
+            android:screenOrientation="nosensor" >
+        </activity>
+
+        <service android:name=".service.FileAcceptService" >
+        </service>
+        <service android:name=".service.UdpMessageProgressService" >
+        </service>
+        <activity 
+            android:name=".activity.VoiceActivity"
+             android:screenOrientation="nosensor" >
+            
+        </activity>
+        <activity android:name=".activity.DragImageActivity"></activity>
+        <activity android:name=".activity.GroupMemberActivity"
+            android:label="@string/group_member">
+
+        </activity>
+        <activity android:name=".activity.GroupAddActivity"
+            android:label="@string/group_add_member">
+
+        </activity>
+    </application>
+
+</manifest>

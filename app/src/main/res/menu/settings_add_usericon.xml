@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/bycamera"
+        android:orderInCategory="100"
+        android:title="@string/settings_add_usericon_camera"/>
+    <item
+        android:id="@+id/bygallery"
+        android:orderInCategory="100"
+        android:title="@string/settings_add_usericon_gallery"/>
+
+</menu>

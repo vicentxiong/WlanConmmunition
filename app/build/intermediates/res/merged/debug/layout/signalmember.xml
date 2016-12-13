@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+    <ImageView
+        android:id="@+id/membericon"
+        android:layout_width="@dimen/list_icon_width"
+        android:layout_height="@dimen/list_icon_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:id="@+id/memberinfo_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/membericon"
+        android:layout_marginLeft="@dimen/signal_marginleft"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/membername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="@dimen/list_member_name" />
+
+        <TextView
+            android:id="@+id/memberhostname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="@dimen/list_member_hostname"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/memberip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/memberinfo_container"
+        android:layout_toRightOf="@id/membericon"
+        android:layout_marginLeft="@dimen/signal_marginleft"
+        android:text="TextView"
+        android:textSize="@dimen/list_member_ip" />
+
+    <TextView
+        android:id="@+id/unreadSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text=""
+        android:textSize="@dimen/list_member_unread_length" 
+        android:layout_marginRight="@dimen/list_member_unread_marginright"
+        android:textColor="#DC143C"/>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/menu/settings_add_usericon.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/menu/settings_add_usericon.xml"
+    },
+    {
+        "merged": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/res/menu/main.xml"
+    }
+]

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">会议通</string>
+    <string name="action_settings">设置</string>
+    <string name="buildGroup">建群</string>
+    <string name="pulltorefresh">下拉刷新</string>
+    <string name="realesetorefresh">松开刷新</string>
+    <string name="refreshing">正在刷新....</string>
+    <string name="sendmessage">发送</string>
+    <string name="sendfile">图片</string>
+    <string name="sendmessage_toast">发送不能为空</string>
+    <string name="localusername_title">用户姓名设置</string>
+    <string name="localusericon_title">用户头像设置</string>
+    <string name="settings_ok">完成</string>
+    <string name="username_setting_profile">请设置用户名：</string>
+    <string name="usericon_setting_profile">请设置头像：</string>
+    <string name="settings_back_tip_title">提示</string>
+    <string name="settings_back_tip_message">是否保存设置?</string>
+    <string name="settings_back_tip_save">保存</string>
+    <string name="settings_back_tip_cancel">取消</string>
+    <string name="settings_add_usericon_camera">拍照</string>
+    <string name="settings_add_usericon_gallery">图库</string>
+    <string name="setting_empty_toast">设置不能为空</string>
+    <string name="file_isnot_exitst">文件不存在</string>
+    <string name="file_receiver">接收</string>
+    <string name="file_reject">拒绝</string>
+    <string name="file_start_receiver">开始接收</string>
+    <string name="file_ok_receiver">接收成功</string>
+    <string name="file_fail_receiver">接收失败</string>
+    <string name="file_receivering_tab">正在接收</string>
+    <string name="file_receivered_tab">已经接收</string>
+    <string name="file_list">文件列表</string>
+    <string name="list">列表</string>
+    <string name="empty_file_list">无记录</string>
+    <string name="service_request_notification">请求接收?</string>
+    <string name="settings_exit_textview">退     出</string>
+    <string name="voice_opt_btn">通话</string>
+    <string name="build_group_title">新建群组</string>
+    <string name="save_group_name">保存</string>
+    <string name="group_member">群组成员</string>
+    <string name="group_add_member">新增</string>
+    <string name="group_empty">群组为空</string>
+    <string name="group_not_support_image">群组该功能暂不支持</string>
+</resources>

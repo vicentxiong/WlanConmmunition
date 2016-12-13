@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/usernameprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/setting_username_profile"
+        android:text="@string/username_setting_profile" />
+
+    <EditText
+        android:id="@+id/new_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/usernameprofile"
+        android:ems="10" 
+        android:background="@android:color/white"
+        android:textSize="@dimen/setting_username_content"
+        android:layout_marginLeft="@dimen/settings_username_magginleft">
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

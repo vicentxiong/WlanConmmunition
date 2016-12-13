@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/usericonprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/setting_username_profile"
+        android:text="@string/usericon_setting_profile" />
+
+    <ImageView
+        android:id="@+id/new_usericon"
+        android:layout_width="@dimen/setting_useriocn_width"
+        android:layout_height="@dimen/setting_useriocn_height"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/usericonprofile"
+        android:src="@drawable/settings_add_icon"
+        android:textSize="@dimen/setting_username_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/chat_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/darker_gray"
+        android:text="TextView"
+        android:textColor="@android:color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/chat_content_maggintop"
+        android:gravity="right" >
+
+        <LinearLayout
+            android:id="@+id/chat_lilayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/outgoing_ip_message"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/file_transfer_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fm_unknown" />
+
+            <TextView
+                android:id="@+id/chat_tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="@dimen/chat_content_maxwidth"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ins_lilayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/chat_lilayout">
+            <ImageView
+                android:id="@+id/chat_img_icon"
+                android:layout_width="@dimen/chat_icon_width"
+                android:layout_height="@dimen/chat_icon_height"
+                android:src="@drawable/default_icon"
+                />
+
+            <TextView
+                android:id="@+id/group_send_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff00ddff"
+                android:layout_gravity="right"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

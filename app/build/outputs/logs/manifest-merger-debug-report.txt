@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:2:1-81:12
+	xmlns:android
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:13:22-72
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:14:22-68
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:16:22-73
+application
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:18:5-79:19
+	android:label
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:21:9-45
+	android:theme
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:24:9-40
+	android:largeHeap
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:19:9-68
+activity#com.xiong.wlanconmmunition.activity.MainEntryActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:25:9-34:20
+	android:screenOrientation
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:28:13-49
+	android:label
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:26:13-81
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:32:27-74
+activity#com.xiong.wlanconmmunition.activity.SessionActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:35:9-38:20
+	android:screenOrientation
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:36:13-53
+activity#com.xiong.wlanconmmunition.activity.SettingsActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:39:9-42:20
+	android:screenOrientation
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:40:13-54
+activity#com.xiong.wlanconmmunition.activity.UserIconSettingsActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:43:9-46:20
+	android:screenOrientation
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:44:13-62
+activity#com.xiong.wlanconmmunition.activity.UserNameSettingsActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:47:9-50:20
+	android:screenOrientation
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:48:13-62
+activity#com.xiong.wlanconmmunition.activity.FileOptionActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:51:9-54:20
+	android:screenOrientation
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:52:13-56
+activity#com.xiong.wlanconmmunition.activity.ReceiverFileActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:55:9-59:20
+	android:screenOrientation
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:58:13-49
+	android:label
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:57:13-46
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:56:13-58
+service#com.xiong.wlanconmmunition.service.FileAcceptService
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:61:9-62:19
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:61:18-59
+service#com.xiong.wlanconmmunition.service.UdpMessageProgressService
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:63:9-64:19
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:63:18-67
+activity#com.xiong.wlanconmmunition.activity.VoiceActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:65:9-69:20
+	android:screenOrientation
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:67:14-50
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:66:13-51
+activity#com.xiong.wlanconmmunition.activity.DragImageActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:70:9-73
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:70:19-61
+activity#com.xiong.wlanconmmunition.activity.GroupMemberActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:71:9-74:20
+	android:label
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:72:13-49
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:71:19-63
+activity#com.xiong.wlanconmmunition.activity.GroupAddActivity
+ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:75:9-78:20
+	android:label
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:76:13-53
+	android:name
+		ADDED from /home/eshion/projects/em810w/packages/eshion_app/WlanConmmunition/app/src/main/AndroidManifest.xml:75:19-60

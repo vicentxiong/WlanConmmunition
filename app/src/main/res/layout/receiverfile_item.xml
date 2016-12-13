@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/receiver_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/receiverfile_item_marginleft"
+        android:text="TextView" 
+        android:textSize="@dimen/receiverfile_item_filenamesize"
+        android:maxWidth="@dimen/receiverfile_item_maxwidth"
+        android:singleLine="true"/>
+
+    <ProgressBar
+        android:id="@+id/receiver_file_process"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minWidth="@dimen/receiverfile_item_progressbar_width"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/receiver_file_name"
+        android:layout_marginTop="@dimen/receiverfile_item_gap"
+        android:layout_marginLeft="@dimen/receiverfile_item_marginleft" />
+
+    <TextView
+        android:id="@+id/receiver_file_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/receiver_file_name"
+        android:text="TextView" 
+        android:layout_marginTop="@dimen/receiverfile_item_gap"
+        android:layout_marginLeft="@dimen/receiverfile_item_marginleft"/>
+
+    <TextView
+        android:id="@+id/receiver_file_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/receiverfile_item_marginright"
+        android:text="TextView" />
+
+</RelativeLayout>
